@@ -2,7 +2,8 @@
   "name": "simple-todos",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run --settings settings.json",
+    "debug": "meteor run --inspect --settings  settings.json"
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
